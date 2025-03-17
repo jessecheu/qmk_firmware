@@ -1,5 +1,7 @@
-
-#define OLED_DISPLAY_128x64
+#define OLED_DISPLAY_128x32
 
 #define I2C1_SCL_PIN GP3
 #define I2C1_SDA_PIN GP2
+
+#define ENCODER_A_PINS { GP4 }
+#define ENCODER_B_PINS { GP5 }
