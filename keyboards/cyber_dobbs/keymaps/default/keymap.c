@@ -136,9 +136,9 @@ bool oled_task_user() {
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) { /* First encoder */
         if (clockwise) {
-            tap_code(KC_A);
+            tap_code(KC_VOLU);
         } else {
-            tap_code(KC_B);
+            tap_code(KC_VOLD);
         }
     }
     return false;
