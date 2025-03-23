@@ -1679,23 +1679,24 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
      * ┌───┬───┬───┬
-     * │ A │ B │ C │ D
+     * │ 1 │ 2 │ 3 │   4
      * ├───┼───┼───┼─
-     * │ E │ F │ G │ H
+     * │ 5 │ 6 │ 7 │ ----
+     *                8
      * ├───┼───┼───┼
-     * │ I │ J │ K │ L
+     * │ 9 │ 10 │ 11 │ 
      * ├───┼───┼───┼
-     * │ M │ N │ O │  P
-     * ├───┼───┼───┼─
-     * │ Q │  
+     * │ 12 │ 13 │ 14 │  
+     * ├───┼───┼───┼─ 17
+     * │ 15 │ 16      
      * ├───┼
      */  
 
     [0] = LAYOUT(
-        KC_A,   KC_B,   KC_C, KC_D,
-        KC_E,   KC_F,   KC_G, KC_H,
-        KC_I,   KC_J,   KC_K, KC_L,
-        KC_M,   KC_N,   KC_O, KC_P,
+        KC_Q,   KC_SLSH,   KC_Q, KC_Q,
+        KC_7,   KC_8,   KC_9, KC_Q,
+        KC_4,   KC_5,   KC_6, KC_1,
+        KC_2,   KC_3,   KC_O, KC_DOT,
         KC_Q
     )
 };
