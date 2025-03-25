@@ -15,3 +15,4 @@
 
 #define WS2812_DI_PIN GP0
 #define RGBLIGHT_LED_COUNT 17
+#define WS2812_RGBW
