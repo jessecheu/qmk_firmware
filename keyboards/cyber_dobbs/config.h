@@ -6,3 +6,7 @@
 
 #define ENCODER_A_PINS { GP4 }
 #define ENCODER_B_PINS { GP5 }
+
+#define WS2812_DI_PIN GP16
+#define RGBLIGHT_LED_COUNT 17
+
